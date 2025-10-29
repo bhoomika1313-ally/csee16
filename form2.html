@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--resgistration form ; post - secretly jata hai, get - openly jata hai ; action - jismien data store hoga -->
+<form method ="post" action = "#">
+<p style = "text-align: right;" >
+    <label>full name: </label>
+    <input type = "text" name = "fullname" placeholder = "enter your full name" required>
+</p>
+<p>
+    <label>email: </label>
+    <input type = "email" name = "email" placeholder = "enter your mail" required>
+</p>
+<p> 
+    <label>password</label>
+    <input type ="password" name = "password" placeholder = "enter your password" required>
+</p>
+<p>
+    <label>gender: </label>
+    <input type = "radio" name = "gender" value = "male" required> male
+    <input type = "radio" name = "gender" value = "female" required> female
+</p>
+<p>
+    <label> course: </label>
+    <select name = "course" required>
+        <option value = "select course" selected></option>
+        <option value = "btech">btech</option>
+        <option value = "bsc">bsc</option>
+    </select>
+</p>
+    <label> address: </label>
+    <texarea type = "address" rol = "4" cols = "40" placeholder = "enter address" required></texarea>
+</form>
+</body>
+</html>
