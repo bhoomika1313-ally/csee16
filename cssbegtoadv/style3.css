@@ -1,0 +1,22 @@
+body{background-color: beige;}
+
+h1 {text-align: center;
+    font-size: xx-large;}
+.block a { 
+        display:block;
+        background-color: lightcoral;
+        padding: 7px;
+        margin: 5px;
+    }
+.inline a { display :inline;
+        background-color: lightcoral;
+        padding: 7px;
+        margin: 5px;}
+.inline-block a { display:inline-block;
+                background-color: lightcoral;
+                padding: 7px;
+                margin: 5px;}
+.float a {float: left;
+        background-color: lightcoral;
+        padding: 7px 2px;
+         margin: 5px;}
